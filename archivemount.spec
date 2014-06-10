@@ -1,3 +1,5 @@
+%define _enable_debug_packages %{nil}
+
 Summary:	FUSE based filesystem for mounting compressed archives
 Name:		archivemount
 Version:	0.8.3
