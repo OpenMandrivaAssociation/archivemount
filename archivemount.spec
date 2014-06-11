@@ -1,4 +1,5 @@
 %define _enable_debug_packages %{nil}
+%define debug_package %{nil}
 
 Summary:	FUSE based filesystem for mounting compressed archives
 Name:		archivemount
