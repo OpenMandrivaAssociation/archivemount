@@ -11,7 +11,7 @@ URL:		http://www.cybernoia.de/software/archivemount.html
 Source0:	http://www.cybernoia.de/software/archivemount/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(fuse)
 BuildRequires:	pkgconfig(libarchive)
-Requires:	fuse
+Requires:	fuse2
 
 %description
 Archivemount is a piece of glue code between libarchive and FUSE. It can be
