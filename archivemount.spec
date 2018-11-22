@@ -9,7 +9,7 @@ Group:		System/Base
 License:	LGPLv2+
 URL:		http://www.cybernoia.de/software/archivemount.html
 Source0:	http://www.cybernoia.de/software/archivemount/%{name}-%{version}.tar.gz
-BuildRequires:	fuse-devel
+BuildRequires:	pkgconfig(fuse)
 BuildRequires:	pkgconfig(libarchive)
 Requires:	fuse
 
