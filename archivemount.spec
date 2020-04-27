@@ -3,7 +3,7 @@
 
 Summary:	FUSE based filesystem for mounting compressed archives
 Name:		archivemount
-Version:	0.8.12
+Version:	0.9.1
 Release:	1
 Group:		System/Base
 License:	LGPLv2+
