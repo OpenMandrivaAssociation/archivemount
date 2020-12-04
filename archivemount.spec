@@ -4,7 +4,7 @@
 Summary:	FUSE based filesystem for mounting compressed archives
 Name:		archivemount
 Version:	0.9.1
-Release:	1
+Release:	2
 Group:		System/Base
 License:	LGPLv2+
 URL:		http://www.cybernoia.de/software/archivemount.html
@@ -19,14 +19,14 @@ used to mount a (possibly compressed) archive (as in .tar.gz or .tar.bz2)
 and use it like an ordinary filesystem.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc CHANGELOG COPYING README
