@@ -1,10 +1,7 @@
-%define _enable_debug_packages %{nil}
-%define debug_package %{nil}
-
 Summary:	FUSE based filesystem for mounting compressed archives
 Name:		archivemount
 Version:	0.9.1
-Release:	2
+Release:	3
 Group:		System/Base
 License:	LGPLv2+
 URL:		http://www.cybernoia.de/software/archivemount.html
@@ -31,4 +28,4 @@ and use it like an ordinary filesystem.
 %files
 %doc CHANGELOG COPYING README
 %{_bindir}/archivemount
-%{_mandir}/*/*
+%doc %{_mandir}/*/*
