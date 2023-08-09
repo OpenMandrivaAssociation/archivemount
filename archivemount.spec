@@ -1,10 +1,11 @@
 Summary:	FUSE based filesystem for mounting compressed archives
 Name:		archivemount
 Version:	0.9.1
-Release:	5
+Release:	6
 Group:		System/Base
 License:	LGPLv2+
 URL:		http://www.cybernoia.de/software/archivemount.html
+# See also https://github.com/cybernoid/archivemount
 Source0:	http://www.cybernoia.de/software/archivemount/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(fuse)
 BuildRequires:	pkgconfig(libarchive)
@@ -17,9 +18,9 @@ and use it like an ordinary filesystem.
 
 %prep
 %autosetup -p1
+%configure
 
 %build
-%configure
 %make_build
 
 %install
