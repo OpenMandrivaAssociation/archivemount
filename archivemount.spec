@@ -4,7 +4,7 @@ Version:	0.9.1
 Release:	6
 Group:		System/Base
 License:	LGPLv2+
-URL:		http://www.cybernoia.de/software/archivemount.html
+URL:		https://www.cybernoia.de/software/archivemount.html
 # See also https://github.com/cybernoid/archivemount
 Source0:	http://www.cybernoia.de/software/archivemount/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(fuse)
