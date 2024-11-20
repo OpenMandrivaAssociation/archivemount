@@ -1,7 +1,7 @@
 Summary:	FUSE based filesystem for mounting compressed archives
 Name:		archivemount
 Version:	0.9.1
-Release:	6
+Release:	7
 Group:		System/Base
 License:	LGPLv2+
 URL:		https://www.cybernoia.de/software/archivemount.html
