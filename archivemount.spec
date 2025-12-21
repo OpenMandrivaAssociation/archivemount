@@ -7,6 +7,11 @@ License:	LGPLv2+
 URL:		https://www.cybernoia.de/software/archivemount.html
 # See also https://github.com/cybernoid/archivemount
 Source0:	http://www.cybernoia.de/software/archivemount/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(fuse)
 BuildRequires:	pkgconfig(libarchive)
 Requires:	fuse2
